@@ -45,17 +45,34 @@
       }
 
       /* 7. Child Selector */
-       
+        div > p {
+            background-color: orange;
+        }
 
       /* 8. Adjacent Sibling Selector */
+      h1 + p {
+        font-weight: bold;
+      }
 
       /* 9. General Sibling Selector */
+      h2 ~ p {
+        background-color: rgba(243, 7, 7, 0.667);
+      }
 
       /* 10. Pseudo-class Selector */
+      a:hover {
+        background-color: darkmagenta;
+        text-decoration: none;
+        color: white;
+      }
 
       /* 11. Pseudo-element Selector */
+      p::first-letter {
+        font-weight: bold;
+      }
 
       /* 12. Grouping Selector */
+      
     </style>
   </head>
   <body>
